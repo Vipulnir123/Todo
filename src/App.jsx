@@ -24,6 +24,8 @@ const Scene = () => {
 
         <OrbitControls />
       </Canvas>
+<div class="fixed-container">
+  
 
       {/* ✅ Buttons to control animations separately */}
       <div style={{ position: "absolute", top: 20, left: 20, background: "#fff", padding: 10, borderRadius: 5 }}>
@@ -56,6 +58,7 @@ const Scene = () => {
           ))}
         </div>
       </div>
+  </div>
     </>
   );
 };
