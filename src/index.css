@@ -34,7 +34,13 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-
+.fixed-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
 button {
 
   border-radius: 8px;
